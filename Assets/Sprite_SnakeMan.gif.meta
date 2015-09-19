@@ -1,0 +1,816 @@
+fileFormatVersion: 2
+guid: fd0c2e82c6e493e4db5f0ea82496af96
+timeCreated: 1442344026
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SnakeMan_spawn
+    21300002: SnakeMan_Run0
+    21300004: SnakeMan_Run1
+    21300006: SnakeMan_Run2
+    21300008: SnakeMan_Idle
+    21300010: SnakeMan_Pose
+    21300012: SnakeMan_Falling
+    21300014: SnakeMan_Falling_shoot
+    21300016: SnakeMan_Jump
+    21300018: Snake_Gient0
+    21300020: Snake_Gient1
+    21300022: Snake_Gient2
+    21300024: Snake_Gient3
+    21300026: Snake0
+    21300028: Snake1
+    21300030: Snake2
+    21300032: Dada0
+    21300034: Dada1
+    21300036: Dada2
+    21300038: Spider0
+    21300040: Spider1
+    21300042: AscensionPlatform0
+    21300044: AscensionPlatform1
+    21300046: ThrownBall0
+    21300048: ThrownBall1
+    21300050: Bullet_Fly0
+    21300052: Bullet_Fly1
+    21300054: Bullet_Fly2
+    21300056: BulletBreakDesquise0
+    21300058: BulletBreakDesquise1
+    21300060: Bullet_Fly_hidden0
+    21300062: Bullet_Fly_hidden1
+    21300064: Bullet_Fly_hidden2
+    21300066: Bullet_Fly_hidden3
+    21300068: HammerJoe_swing_open0
+    21300070: HammerJoe_swing3
+    21300072: HammerJoe_swing2
+    21300074: HammerJoe_swing1
+    21300076: HammerJoe_swing0
+    21300078: Sprite_SnakeMan_39
+    21300080: Sprite_SnakeMan_40
+    21300082: Sprite_SnakeMan_41
+    21300084: Sprite_SnakeMan_42
+    21300086: Sprite_SnakeMan_43
+    21300088: Sprite_SnakeMan_44
+    21300090: Sprite_SnakeMan_45
+    21300092: Sprite_SnakeMan_46
+    21300094: Sprite_SnakeMan_47
+    21300096: Sprite_SnakeMan_48
+    21300098: HammerJoe_swing_open1
+    21300100: HammerJoe_swing_open2
+    21300102: HammerJoe_swing_open3
+    21300104: HammerJoe_swing_open4
+    21300106: HammerJoe_swing_open5
+    21300108: Projectile_Giant0
+    21300110: Projectile_Giant1
+    21300112: Projectile_Giant2
+    21300114: Projectile_Giant3
+    21300116: BulletCload
+    21300118: Potton_flying0
+    21300120: Potton_flying1
+    21300122: Potton_flying_empty0
+    21300124: Potton_flying_empty1
+    21300126: Potton_dropping
+    21300128: pottonHead
+    21300130: BulletBreakDisguise0
+    21300132: BulletBreakDisguise1
+    21300134: SnakeMissile_up0
+    21300136: SnakeMissile_up1
+    21300138: SnakeMissile0
+    21300140: SnakeMissile1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SnakeMan_spawn
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 239
+        width: 34
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeMan_Run0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 241
+        width: 30
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeMan_Run1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 241
+        width: 25
+        height: 29
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeMan_Run2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 241
+        width: 28
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeMan_Idle
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 241
+        width: 24
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeMan_Pose
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 241
+        width: 34
+        height: 29
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeMan_Falling
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 236
+        width: 23
+        height: 44
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeMan_Falling_shoot
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 238
+        width: 34
+        height: 44
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeMan_Jump
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 242
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Snake_Gient0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 153
+        width: 65
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Snake_Gient1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 152
+        width: 65
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Snake_Gient2
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 153
+        width: 65
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Snake_Gient3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 153
+        width: 66
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Snake0
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 154
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Snake1
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 154
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Snake2
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 154
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dada0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 122
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dada1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 122
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dada2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 122
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spider0
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 125
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spider1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 125
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AscensionPlatform0
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 116
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AscensionPlatform1
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 116
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ThrownBall0
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 101
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ThrownBall1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 101
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bullet_Fly0
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 126
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bullet_Fly1
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 126
+        width: 25
+        height: 13
+      alignment: 9
+      pivot: {x: .419999987, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bullet_Fly2
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 126
+        width: 29
+        height: 13
+      alignment: 9
+      pivot: {x: .360000014, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BulletBreakDisguise0
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 118
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BulletBreakDisguise1
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bullet_Fly_hidden0
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 104
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bullet_Fly_hidden1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 104
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bullet_Fly_hidden2
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 104
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bullet_Fly_hidden3
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 104
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HammerJoe_swing_open0
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 52
+        width: 45
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HammerJoe_swing3
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 52
+        width: 46
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HammerJoe_swing2
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 52
+        width: 28
+        height: 41
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HammerJoe_swing1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 52
+        width: 28
+        height: 38
+      alignment: 9
+      pivot: {x: .182143077, y: .0157896336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HammerJoe_swing0
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 52
+        width: 39
+        height: 35
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_SnakeMan_39
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 53
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_SnakeMan_40
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 53
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_SnakeMan_41
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 54
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_SnakeMan_42
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 54
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_SnakeMan_43
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 54
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_SnakeMan_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_SnakeMan_45
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 18
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_SnakeMan_46
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 18
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_SnakeMan_47
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 18
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprite_SnakeMan_48
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 18
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HammerJoe_swing_open1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 3
+        width: 39
+        height: 34
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HammerJoe_swing_open2
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 3
+        width: 28
+        height: 38
+      alignment: 9
+      pivot: {x: .175107688, y: .0154429488}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HammerJoe_swing_open3
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 3
+        width: 28
+        height: 41
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HammerJoe_swing_open4
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 3
+        width: 46
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HammerJoe_swing_open5
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 3
+        width: 28
+        height: 27
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Projectile_Giant0
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Projectile_Giant1
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 188
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Projectile_Giant2
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Projectile_Giant3
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 188
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BulletCload
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 155
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Potton_flying0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 91
+        width: 16
+        height: 22
+      alignment: 9
+      pivot: {x: .5, y: .189999998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Potton_flying1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 91
+        width: 16
+        height: 22
+      alignment: 9
+      pivot: {x: .5, y: .189999998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Potton_flying_empty0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 94
+        width: 16
+        height: 19
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Potton_flying_empty1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 94
+        width: 16
+        height: 19
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Potton_dropping
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 92
+        width: 16
+        height: 25
+      alignment: 9
+      pivot: {x: .5, y: .280000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pottonHead
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 95
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeMissile_up0
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 266
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeMissile_up1
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 266
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeMissile0
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 251
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SnakeMissile1
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 241
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
